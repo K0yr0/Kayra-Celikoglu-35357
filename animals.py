@@ -6,7 +6,7 @@ animals = [
     {"name": "snake", "group": "reptile", "number_of_legs": 0, "skills": ["slithering", "swimming"]},
     {"name": "shark", "group": "fish", "number_of_legs": 0, "skills": ["swimming"]},
     {"name": "butterfly", "group": "insect", "number_of_legs": 6, "skills": ["flying"]},
-    {"name": "spider", "group": "arachnid", "number_of_legs": 8, "skills": ["climbing", "web spinning"]},
+    {"name": "spider", "group": "arachnid", "number_of_legs": 8, "skills": ["climbing", "can do webs"]},
 ]
 
 for animal in animals:
