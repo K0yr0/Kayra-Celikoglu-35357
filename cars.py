@@ -1,7 +1,7 @@
 class Engine:
     def __init__(self, horsepower, type):
         self.horsepower = horsepower
-        self.type = type  # e.g., Petrol, Diesel, Electric
+        self.type = type
 
     def get_info(self):
         return f"{self.horsepower} HP {self.type} Engine"
