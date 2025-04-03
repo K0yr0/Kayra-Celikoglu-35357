@@ -47,3 +47,71 @@ my var = "John"
 myVariableName = "John" #camel case
 MyVariableName = "John" #Pascal case
 my_variable_name = "John" #snake caase
+
+#example8
+x, y, z = "Orange", "Banana", "Cherry"
+
+print(x)
+print(y)
+print(z) #Note: Make sure the number of variables matches the number of values, or else you will get an error.
+
+#example9
+x = y = z = "Orange"
+
+print(x)
+print(y)
+print(z) #it will all print same thing
+
+#example10
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z) #it will print in order we wrote
+
+#example11
+x = "Python is awesome"
+print(x) #it will give us= Python is awesome
+
+x = "Python"
+y = "is"
+z = "awesome"
+print(x, y, z) #it will also give us= Python is awesome
+
+x = "Python "
+y = "is "
+z = "awesome"
+print(x + y + z) #also the same result
+
+#example 12
+x = 5
+y = 10
+print(x + y) #it will do math
+
+x = 5
+y = "John"
+print(x + y) #it is wrong because they are not the same type
+
+#correct version
+x = 5
+y = "John"
+print(x, y)
+
+#example13
+x = "awesome"
+
+def myfunc():
+  print("Python is " + x)
+
+myfunc() #Create a variable outside of a function, and use it inside the function
+
+x = "awesome"
+
+def myfunc():
+  x = "fantastic"
+  print("Python is " + x)
+
+myfunc()
+
+print("Python is " + x) #it will print= Python is fantastic Python is awesome
+
