@@ -7,7 +7,7 @@
 #3-Display the type of the variable you created
 
 
-#4-Write if statement (if x is bigger than a number then display something...)
+#4-Use if to check if a number is equal to 10. If yes, print "Ten"
 
 
 #5-Create a list called fruits with any 3 fruit names. Then print the second fruit
