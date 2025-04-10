@@ -51,3 +51,10 @@ print(txt) #Add a placeholder for the price variable
 price = 59
 txt = f"The price is {price:.2f} dollars"
 print(txt) #The price is 59.00 dollars
+
+#example11
+txt = f"The price is {20 * 59} dollars"
+print(txt) #The price is 1180 dollars
+
+#example12
+txt = "We are the so-called \"Vikings\" from the north." #We are the so-called "Vikings" from the north.
