@@ -29,9 +29,9 @@ else:
 
 #7-Make a dictionary called student with keys: "name", "age", and "grade". Assign values and print the age
 student = {
-    "name": "Sarah",
-    "age": 18,
-    "grade": "B"
+    "name": "Kayra",
+    "age": 19,
+    "grade": "4"
 }
 print(student["age"])
 
@@ -41,8 +41,8 @@ fruits.append("grape")
 print(fruits)
 
 
-#9-Update the "grade" in the student dictionary to "A+" and print the full dictionary
-student["grade"] = "A+"
+#9-Update the "grade" in the student dictionary to "5" and print the full dictionary
+student["grade"] = "5"
 print(student)
 
 #10-Create a class Person with an attribute name. Add a method greet() that prints "Hello, " + name. Create an object and call greet()
