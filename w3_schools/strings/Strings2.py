@@ -35,3 +35,19 @@ b = "World"
 c = a + " " + b
 print(c) #To add a space between them, add a " "
 
+#STRING FORMAT
+
+#example8
+age = 36
+txt = f"My name is John, I am {age}"
+print(txt) #we can combine strings and numbers like this
+
+#example9
+price = 59
+txt = f"The price is {price} dollars"
+print(txt) #Add a placeholder for the price variable
+
+#example10
+price = 59
+txt = f"The price is {price:.2f} dollars"
+print(txt) #The price is 59.00 dollars
