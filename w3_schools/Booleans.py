@@ -59,4 +59,17 @@ def myFunction() :
   return True
 
 print(myFunction()) 
- 
+
+#example9
+def myFunction() :
+  return True
+
+if myFunction():
+  print("YES!")
+else:
+  print("NO!")
+
+#example10
+x = 200
+print(isinstance(x, int)) #Check if an object is an integer or not
+
